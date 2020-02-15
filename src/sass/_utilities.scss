@@ -1,0 +1,31 @@
+.hidden{display: none;}
+.text{
+    &-right{text-align: right;}
+    &-center{text-align: center;}
+}
+.justify{
+    &-start{justify-content:flex-start}
+    &-end{justify-content:flex-end}
+    &-center{justify-content:center}
+    &-between{justify-content:space-between}
+    &-around{justify-content:space-around}
+    &-evenly{justify-content:space-evenly}
+}
+.align{
+    &-start{align-items:flex-start}
+    &-end{align-items:flex-end}
+    &-center{align-items:center}
+    &-stretch{align-items:stretch}
+    &-baseline{align-items:baseline}
+}
+.responsive-img{
+    max-width:100%;
+    
+}
+
+.show-mobile{display: none;}
+.hide-mobile{display: block;}
+@media only screen and (max-width: 991px) {
+    .show-mobile{display: block;}
+    .hide-mobile{display: none;}
+}

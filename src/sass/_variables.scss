@@ -1,0 +1,43 @@
+
+
+/* Colors */
+
+/* Primary */
+$dark-blue :hsl(228, 39%, 23%) !default;;
+$bright-red:  hsl(12, 88%, 59%) !default;
+$button-hover: #f98f75;
+$grey-bright-red :#bb7462 !default;
+
+$conent-background: #fff;
+$body-background: #fff0eb;
+
+/* Neutral */
+$dark-grayish-blue: hsl(227, 12%, 61%) !default;;
+$very-dark-blue: hsl(233, 12%, 13%) !default;
+$very-pale-red: hsl(13, 100%, 96%) !default;
+$vary-light-gray: hsl(0, 0%, 98%) !default;;
+
+
+/* Typography */
+
+/* Body Copy */ 
+$body-font-size: 16px !default;
+$body-font-family: 'Be Vietnam', sans-serif !default;
+
+/* Layout */
+$max-page-width: 100%;
+$max-container-width: 1140px;
+$grid-row-columns: 12;
+$grid-columns: 12;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$grid-gutter-width: 30px;
+
+/* UI */
+$button-border-raduis: 25px;
